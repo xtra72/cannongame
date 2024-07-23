@@ -88,7 +88,7 @@ image::./image/figure16.png"[title="볼과 경계영역",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter04/src/main/java/com/nhnacademy/exam040101/BoundedBall.java[class BoundedBall]
+** link:../example/chapter04/src/main/java/com/nhnacademy/exam040101/BoundedBall.java[class BoundedBall]
 *** 이동을 하고 경계영역을 벗어난 경우, 튕겨서 영역 안으로 들어온다.
 +
 image::./image/figure17.png"[title="실행 결과",align=center]
@@ -179,7 +179,7 @@ x_3 &= x_1 + d_x\\
 ==== 확인
 
 * Source Code
-** link:./example/chapter04/src/main/java/com/nhnacademy/exam040102/BoundedBall.java[class BoundedBall]
+** link:../example/chapter04/src/main/java/com/nhnacademy/exam040102/BoundedBall.java[class BoundedBall]
 +
 image::./image/figure19.png"[title="실행 결과",align=center]
 *** 보정식을 적용한 결과는 경계영역을 벗어나는 경우가 보이지 않음
@@ -242,7 +242,7 @@ BoundedWorld는 ball이 허용 공간을 벗어났는지 확인하고, 그러한
 ==== 확인
 
 * Source Code
-** link:./example/chapter04/src/main/java/com/nhnacademy/exam040201/BoundedWorld.java[class BoundedWorld]
+** link:../example/chapter04/src/main/java/com/nhnacademy/exam040201/BoundedWorld.java[class BoundedWorld]
 *** MovableWorld를 BoundedWorld로 확장
 *** BoundedWorld에서는 MovableBall 사용
 
@@ -306,9 +306,9 @@ image::./image/figure23.png"[title="중복되지 않는 ball",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter04/src/main/java/com/nhnacademy/exam040301/Ball.java[class Ball]
+** link:../example/chapter04/src/main/java/com/nhnacademy/exam040301/Ball.java[class Ball]
 *** 충돌 확인을 위한 isCollision 함수 추가
-** link:./example/chapter04/src/main/java/com/nhnacademy/exam040301/World.java[class World]
+** link:../example/chapter04/src/main/java/com/nhnacademy/exam040301/World.java[class World]
 *** world에서 ball 추가시 충돌을 확인하고, 충돌시 exception 발생
 
 ---
@@ -357,7 +357,7 @@ image::./image/figure27.png"[title="중첩되지 않는 ball",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter04/src/main/java/com/nhnacademy/exam040302/Ball.java[class Ball]
+** link:../example/chapter04/src/main/java/com/nhnacademy/exam040302/Ball.java[class Ball]
 *** ball이 들어갈 수 있는 최소 4각 영역을 돌려주는 getRegion 함수 추가
 *** ball간 충돌을 중심점 거리 계산에서 영역 계산으로 변경
 
@@ -377,7 +377,7 @@ image::./image/figure28.png"[title="충돌 영역",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter04/src/main/java/com/nhnacademy/exam040303/World.java[class World]
+** link:../example/chapter04/src/main/java/com/nhnacademy/exam040303/World.java[class World]
 *** world에서 화면을 새로 그릴때, ball간 충돌 영역을 추출해 표시
 *** Rectangle class에서 중첩 영역을 얻어내는 intersection 활용
 
@@ -406,7 +406,7 @@ image::./image/figure29.png"[title="중첩 영역",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter04/src/main/java/com/nhnacademy/exam/BoundedWorld.java[class BoundedWorld]
+** link:../example/chapter04/src/main/java/com/nhnacademy/exam/BoundedWorld.java[class BoundedWorld]
 
 ---
 

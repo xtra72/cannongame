@@ -76,4 +76,9 @@ image::./image/figure01.png[title="프로젝트 구성", align=center]
 
 ---
 
-link:./00.index.adoc[돌아가기]
+ifndef::github-env[]
+link:../index.adoc[돌아가기]
+endif::[]
+ifdef::github-env[]
+link:../README.md[돌아가기]
+endif::[]

@@ -121,8 +121,8 @@ public class Ball {
 ==== 확인
 
 * Source Code
-** link:./example/chapter02/src/main/java/com/nhnacademy/exam020101/Main.java[Main]
-** link:./example/chapter02/src/main/java/com/nhnacademy/exam020101/Ball.java[class Ball]
+** link:../example/chapter02/src/main/java/com/nhnacademy/exam020101/Main.java[Main]
+** link:../example/chapter02/src/main/java/com/nhnacademy/exam020101/Ball.java[class Ball]
 * 물음
 ** Ball class는 요구대로 정의 되었나?
 ** 볼은 지정된 위치에 주어진 크기로 생성되었나?
@@ -144,8 +144,8 @@ public class Ball {
 ==== 확인
 
 * Source Code
-** link:./example/chapter02/src/main/java/com/nhnacademy/exam020102/Main.java[Main]
-** link:./example/chapter02/src/main/java/com/nhnacademy/exam020102/Ball.java[class Ball]
+** link:../example/chapter02/src/main/java/com/nhnacademy/exam020102/Main.java[Main]
+** link:../example/chapter02/src/main/java/com/nhnacademy/exam020102/Ball.java[class Ball]
 * 물음
 ** 볼이 차지하는 영역이 올바른가?
 ** 볼을 위치 (Integer.MAX_VALUE, Integer.MIN_VALUE)에 반지름 1의 크기로 생성하면 영역은 올바른가?
@@ -214,8 +214,8 @@ public class Ball {
 ==== 확인
 
 * Source Code
-** link:./example/chapter02/src/main/java/com/nhnacademy/exam020103/Main.java[Main]
-** link:./example/chapter02/src/main/java/com/nhnacademy/exam020103/Ball.java[class Ball]
+** link:../example/chapter02/src/main/java/com/nhnacademy/exam020103/Main.java[Main]
+** link:../example/chapter02/src/main/java/com/nhnacademy/exam020103/Ball.java[class Ball]
 * 물음
 ** 실행시 모든 과정에서 문제 없이 수행되었나?
 ** 입력 매개변수의 검증에 문제가 없나?
@@ -239,7 +239,7 @@ public class Ball {
 ==== 확인
 
 * Test Code
-** link:./example/chapter02/src/test/java/exam020104/TestBall.java[TestBall]
+** link:../example/chapter02/src/test/java/exam020104/TestBall.java[TestBall]
 * 물음
 ** 실행 코드를 이용한 확인과 테스트 코드를 이용한 확인의 차이점은?
 ** 어떠한 장단점이 있는가?
@@ -261,7 +261,7 @@ public class Ball {
 ==== 확인
 
 * Test Code
-** link:./example/chapter02/src/test/java/exam020105/TestBall.java[TestBall]
+** link:../example/chapter02/src/test/java/exam020105/TestBall.java[TestBall]
 * 물음
 
 {empty} +

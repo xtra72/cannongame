@@ -70,12 +70,12 @@ image::./image/figure07.png[title="Movable Ball",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter03/src/main/java/com/nhnacademy/example030101/Main.java[Main]
+** link:../example/chapter03/src/main/java/com/nhnacademy/example030101/Main.java[Main]
 *** 볼이 보이나?
 **** 보일 수도 보이지 않을 수도 있다.
 *** 볼이 이동하는가?
 **** 이동을 확인하려면?
-** link:./example/chapter03/src/main/java/com/nhnacademy/example030101/MovableBall.java[class MovableBall]
+** link:../example/chapter03/src/main/java/com/nhnacademy/example030101/MovableBall.java[class MovableBall]
 
 ---
 
@@ -93,7 +93,7 @@ image::./image/figure07.png[title="Movable Ball",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter03/src/test/java/com/nhnacademy/exam030102/TestMovableBall.java[Test MovableBall]
+** link:../example/chapter03/src/test/java/com/nhnacademy/exam030102/TestMovableBall.java[Test MovableBall]
 *** 이동에 문제가 없나?
 *** <<Exam-3-1-1>>과 어떠한 차이가 있나?
 *** 동일한 테스트 과정을 여러 방법으로 구현해 보았다. 차이와 장단점은?
@@ -160,8 +160,8 @@ image::./image/figure07.png[title="Movable Ball",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter03/src/main/java/com/nhnacademy/example030201/Main.java[Main]
-** link:./example/chapter03/src/main/java/com/nhnacademy/example030201/MovableWorld.java[class MovableWorld]
+** link:../example/chapter03/src/main/java/com/nhnacademy/example030201/Main.java[Main]
+** link:../example/chapter03/src/main/java/com/nhnacademy/example030201/MovableWorld.java[class MovableWorld]
 *** 이동 횟수가 적을 경우
 +
 image::./image/figure08.png[title="이동 횟수 적음",align=center]
@@ -173,7 +173,7 @@ image::./image/figure09.png"[title="이동 횟수 중간",align=center]
 image::./image/figure10.png"[title="이동 횟수 많음",align=center]
 * MovableWorld에서는 ball이 이동해야 한다. ball이 이동하는가?
 ** 무엇이 문제일까?
-** link:./example/chapter03/src/main/java/com/nhnacademy/example030201/MovableBall.java[class MovableBall]
+** link:../example/chapter03/src/main/java/com/nhnacademy/example030201/MovableBall.java[class MovableBall]
 
 ---
 
@@ -199,16 +199,16 @@ image::./image/figure11.png"[title="Zero DT",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter03/src/main/java/com/nhnacademy/exam030301/Ball.java[class Ball]
+** link:../example/chapter03/src/main/java/com/nhnacademy/exam030301/Ball.java[class Ball]
 *** id 추가
 **** 생성시 id 자동 부여 또는 설정
 *** name 추가
 **** 기본 값으로 id
 *** logger 추가
 **** Ball의 상태 정보 등
-** link:./example/chapter03/src/main/java/com/nhnacademy/exam030301/MovableBall.java[class MovableBall]
+** link:../example/chapter03/src/main/java/com/nhnacademy/exam030301/MovableBall.java[class MovableBall]
 *** move함수 수행시 로그 출력
-** link:./example/chapter03/src/main/java/com/nhnacademy/exam030301/Main.java[Main]
+** link:../example/chapter03/src/main/java/com/nhnacademy/exam030301/Main.java[Main]
 *** Ball 이름 설정
 * 로그
 +
@@ -269,7 +269,7 @@ image::./image/figure11.png"[title="Zero DT",align=center]
 
 ==== 확인
 
-* link:./example/chapter03/src/main/java/com/nhnacademy/exam030302/MovableWorld.java[class MovableWorld]
+* link:../example/chapter03/src/main/java/com/nhnacademy/exam030302/MovableWorld.java[class MovableWorld]
 +
 [source,console]
 ----
@@ -325,7 +325,7 @@ image::./image/figure13.png"[title="단위시간 오차 보정",align=center]
 ==== 확인
 
 * Source Code
-** link:./example/chapter03/src/main/java/com/nhnacademy/exam030303/MovableWorld.java[class MovableWorld]
+** link:../example/chapter03/src/main/java/com/nhnacademy/exam030303/MovableWorld.java[class MovableWorld]
 *** 시간은 단순히 sleep하지 않고
 *** 다음번 수행될 시간을 계산한 후 sleep
 +
